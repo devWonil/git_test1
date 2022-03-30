@@ -1,0 +1,75 @@
+자바 문법 vs 객체지향 패러다임
+
+// 객체지향 패러다임
+
+--> 객체와 객체간에 상호 작용을 하게 코딩
+--> 객체와 객체에 관계를 형성해서 코딩을 한다
+
+Scanner scn = new Scanner(System.in);
+// 콘솔창으로 무엇을 입력 받을 수 있음
+UserInfo userInfo;
+
+--> 입력값을 받는 동작을 만듬
+
+--> 구체적으로 만들고 싶어 (이름을 만들어서 UserInfo 값을
+받는 특화된 새로운 클래스를 설계한다면 어떻게 할까?)
+
+// 스캐너 이용해서 UserInfo에 값을 받자
+
+// public class InputUserInfoScanner {
+	
+	// 상태
+	Scanner scn;
+
+	// 행위
+	public void inputData(){
+		scn = new Scanner();
+		System.out.println("사용자의 ID를 입력해");
+		// 사용자 ...
+		//
+		printA();
+		return userInfo;
+	}
+	//꾸미는 기능
+	public void printA(){
+		System.out.println("===사용자입력===");
+	}
+}
+
+class Test{
+	main(){
+		InputUserInfoScanner InputUserInfoScanner = new InputUserInfoScanner();
+		UserInfo userInfo = 
+	
+	}
+}
+
+get / set
+
+private String userId;
+private String userName;
+private String userPhoneNum;
+
+public String getUserId(){
+	return this.userId;
+}
+
+public void setUserId(String userId){
+	this.userId = userId;
+}
+
+public String getUserName(){
+	return this.userName;
+}
+
+public void setUserName(String userName){
+	this.userName = userName;
+}
+
+public String getUserPhoneNum(){
+	return this.userPhoneNum;
+}
+
+public void setUserName(String userName){
+	this.userName = userName;
+}

@@ -1,0 +1,27 @@
+객체와 객체간에 관계를 형성해서 코딩해 나가는 과정
+
+상속 -->
+포함 관계 -->
+추상클래스 --> abstract or abstract method
+	   --> method의 선언부만 있고 몸체는 없다
+	  --> 추상클래스 상속하게 되면 강제성이 부여된다
+
+템플릿 method 패턴 --> 실행의 흐름을 정해 놓은 것 (메소드 앞에 final)
+--> 후크 걸다 (필요하다면 사용하고 싶은 클래스에 직접 구현하면 된다)
+
+git : 설치 (git bash) --> 콘솔명령어 / GUI ()
+
+버전 관리 시스템 : 중앙 집중식 VS 분산형 버전 관리 시스템
+
+저장소 데이터를 논리적으로 구분
+
+working directory -- (add) --> index (staging) --> commit (history log) --> head --> push --> 원격지 컴퓨터에 배포
+
+1. 깃허브 레파지토리 생성
+2. C드라이브에 git bash
+3. git clone (복사한 깃허브주소)
+4. git init
+5. git add
+5-1. git status
+6. git commit -m'init project';
+7. git push
