@@ -1,0 +1,11 @@
+git reset : (staging 영역에서 working directory로 내릴때)
+
+git checkout branch_name : 브랜치 선택하기
+
+git branch branch_name : 브랜치 생성하기
+
+도전과제
+
+1. 브랜치 생성
+2. 패널 두개 생성 후 버튼 4개 생성 클릭시 배경색을 변경하는 프로그램
+3. merge(main) 처리 완료
