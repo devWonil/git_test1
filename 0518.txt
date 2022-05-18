@@ -1,0 +1,77 @@
+1. 뷰 컴포넌트 - 부모가 될 수 있는 컴포넌트 (자식만 될 수 있는 컴포넌트)
+
+배치관리자 (부모가 될 수 있는 컴포넌트)
+  - LinearLayout 	*
+  - RelativeLayout
+  - FrameLayout 	*
+  - ConstraintLayout ***
+
+-> 부모 레이아웃 만들어보고 자식 뷰들을 어떻게 배치하는가가 핵심
+
+
+
+학습 목표
+
+IDs란? 식별자
+
+
+
+
+정리
+
+HTML 뼈대
+
+CSS 근육(살)
+
+JavaScript (뇌)
+
+태그는 꺽쇠만 있다면 만들 수 있지만 <abc123> 안녕 </abc123>
+웹 브라우저는 이해하지 못한다.
+
+그래서 브라우저가 이해하는 언어로 작성을 해야한다.
+
+태그모양
+
+<태그이름>content</태그이름>
+
+<input /> self-closing 태그
+
+<a><p>네이버</p></a> <- 중첩태그
+
+태그를 잘못사용하면 제대로 작동이 안될 수 있다
+
+속성
+
+태그 안에는 각각의 attribute (속성)이 존재
+
+<h1 href="http://naver.com" target="_blank">하이</h1> (작동 안됨)
+
+" " <- 속성에 값을 넣을 때 쌍따옴표를 사용하자
+
+' ' <- 물론 가능하지만 권장하지 않음
+
+IDs 어떤 태그는 id or class 를 가질 수 있다
+
+semantic
+
+태그에 의미가 있는 태그가 있고 아무 의미 없는 태그가 있다.
+
+semantic : header, main, footer, address
+non- semantic : p, span, div
+
+가능한 시멘틱 태그를 사용하길 권장한다
+
+박스모델 (박스 옆에 박스가 올 수 없다 하지만 css로 변경가능)
+
+웹 사이트 설정을 담당하는 태그는 head 태그이다
+
+
+
+
+
+학습목표
+
+1. css 를 html 문서에 추가하는 방법
+
+    1. : HTML 파일에 HTML 코드와 CSS 코드 같이 놓는 방법
+    2. : CSS 파일과 HTML 파일 분리하는 방법(권장)

@@ -1,0 +1,11 @@
+Class	vs	Object	vs	Instance
+
+Class : 설계도
+Object : 실체화 될 수 있는 모든 것
+Instance : Object 들이 heap 영역에 올라 갔을 때
+
+Spring 배울 때
+---> IOC란 (제어의 역전)
+---> 실행의 제어권 --> new ();
+
+---> Event Driven 방식 --> 멀티스레딩 프로그래밍

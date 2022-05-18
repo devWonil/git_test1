@@ -1,0 +1,23 @@
+database란?
+
+data의 집합 DBMS(Database Management System)
+를 운영하거나 관리하는 역할
+
+여러개의 database를 가질 수 있다
+
+중요한 특징
+
+data의 무결성
+data의 독립성
+보안 (sql)
+data 중복을 최소화
+data 안정성 향상 --> 백업, 복원
+
+RDBMS (Relational)
+연관관계 1 : N, 1 : 1, N : N
+
+database 생성, 삭제
+table 생성, 삭제
+DML (Data Manipulation Language) - C R U D
+
+Java -> DB 연결 (Query) ->Java(data 전달받음) -> 화면(로직)
